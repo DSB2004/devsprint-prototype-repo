@@ -1,0 +1,30 @@
+/* display properties */
+
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-justify {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flex-left {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+}
+
+.flex-even {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.flex-column {
+    flex-direction: column;
+}

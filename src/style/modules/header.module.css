@@ -1,0 +1,40 @@
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 3;
+}
+
+/* header nav */
+.headerNav {
+    color: white;
+    width: 100%;
+    padding: 10px 30px;
+}
+
+.headerH3 li {
+    text-transform: uppercase;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    font-size: 15px;
+    line-gap-override: 0px;
+}
+
+.menuDiv li {
+    list-style: none;
+    font-size: 10px;
+    margin: 0px;
+}
+
+.menuDiv svg {
+    font-size: 30px;
+    margin: 0px;
+}
+
+
+
+/* dropmenu nav */
+.dropmenuNav {
+    display: none;
+}
