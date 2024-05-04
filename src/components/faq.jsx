@@ -4,7 +4,7 @@ import data from "../assets/data/faq.json"
 import FaqCard from '../layouts/faq-card/faq-card'
 export default function FAQ() {
     return (
-        <section className={style.featureSection}>
+        <section className={style.outerSection} id="faq">
             <div className={`flex-justify ${style.introContent}`}>
                 <h3>
                     FAQ's
@@ -16,8 +16,6 @@ export default function FAQ() {
                     data.map((element, index) => <FaqCard content={element} key={`faq-card-${index}`} />)
                 }
             </div>
-
-
         </section>
     )
 }

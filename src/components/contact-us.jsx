@@ -1,9 +1,14 @@
 import React from 'react'
 import style from "../style/modules/home.module.css"
+import Input from '../layouts/input/input'
+import CONTACTUS from "../assets/img/contact-us-bg.jpg"
 export default function ContactUs() {
+    const handleSubmit = (e) => {
+        e.preventDefault()
+    }
     return (
         <>
-            <section className={style.featureSection}>
+            <section className={style.outerSection} id="contact-us">
                 <div className={`flex-justify ${style.introContent}`}>
                     <h3>
                         Contact Us
@@ -13,7 +18,25 @@ export default function ContactUs() {
                     </p>
                 </div>
 
-                
+                <div className={`flex-justify ${style.ContactUsFormContainer}`}>
+                    <div className={style.contactUsImgBorder}>
+                        <img src={CONTACTUS} alt="" className={style.contactUsImg} />
+                    </div>
+                    <form className={`flex-center flex-column ${style.contactUsForm} `} onSubmit={handleSubmit}>
+                        <div className={`flex-left flex-column
+                         ${style.contactUsFormDiv}`} >
+                            <h5>Reach out</h5>
+                            <h1>Schedule a Call</h1>
+                            <p>Get In touch with our programme coordinator</p>
+                        </div>
+                        <Input placeholder="Enter your name..." />
+                        <Input placeholder="Enter your email..." />
+                        <Input placeholder="Enter your phone number..." />
+                        <button type='submit' className={style.formBtn}>
+                            submit
+                        </button>
+                    </form>
+                </div>
             </section>
         </>
     )

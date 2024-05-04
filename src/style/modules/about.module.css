@@ -1,0 +1,22 @@
+.aboutHero {
+  width: 1000px;
+  margin: auto;
+}
+
+.aboutHeroContent {
+  margin: 10px 50px;;
+}
+
+.aboutHeroContent h1 {
+  font-size: 50px;
+  margin: 10px;
+  /* text-transform: uppercase; */
+}
+
+
+.aboutHeroContent p {
+  font-size: 20px;
+  margin: 10px;
+  text-align: justify;
+  /* text-transform: uppercase; */
+}

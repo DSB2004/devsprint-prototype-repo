@@ -1,12 +1,13 @@
 import React from 'react'
-import { useNavigate } from 'react-router-dom'
 import { PiCaretRightLight } from "react-icons/pi";
 import style from "./hero-link.module.css"
-export default function HeroLink({ text, link }) {
-    const navigate = useNavigate();
-    const handleClick = () => { }
+export default function HeroLink({ text, onClick }) {
     return (
-        <div className={`flex-center ${style.heroLink}`}>
+        <div className={`flex-center ${style.heroLink}`} onClick={() => {
+            if (onClick) {
+                onClick()
+            }
+        }}>
             {text}
             <PiCaretRightLight />
         </div>

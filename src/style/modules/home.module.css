@@ -20,6 +20,14 @@
     font-size: 15px;
 }
 
+.outerSection {
+    padding-bottom: 50px;
+    width: 80%;
+    margin: auto;
+    border-bottom: 2px solid black;
+
+}
+
 /* hero section */
 .coverImg {
     overflow: hidden;
@@ -104,17 +112,140 @@
     border: 2px solid black;
     margin: auto;
     box-shadow: 10px 10px black;
-    margin-bottom: 300px;
+}
+
+/* contact us */
+
+
+
+.ContactUsFormContainer {
+    width: 800px;
+    height: fit-content;
+    margin: auto;
+    /* border: 2px solid black; */
+}
+
+.contactUsImgBorder::before {
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    height: 400px;
+    width: 280px;
+    border: 2px solid black;
+    box-sizing: border-box;
+    z-index: -1;
+}
+
+.contactUsImgBorder {
+    position: relative;
+}
+
+.contactUsImg {
+    height: 400px;
+    width: 280px;
+    margin-bottom: 50px;
+}
+
+.contactUsForm {
+    height: 400px;
+    width: 350px;
+    border: 2px solid black;
+    margin-top: 150px;
+    box-shadow: 10px 10px black;
+}
+
+.contactUsFormDiv {
+    width: 85%;
+    margin: 20px 0px;
+}
+
+.contactUsFormDiv h1 {
+    margin: 2px 0px;
+    font-size: 28px;
+    text-transform: uppercase;
 }
 
 
-/* .faqContainer:after {
-    content: "";
-    position: absolute;
-    background-color: rgb(0, 0, 0);
-    height: 100%;
-    width: 100%;
-    top: 10px;
-    left: 10px;
-    z-index: -1;
-} */
+.contactUsFormDiv h5 {
+    margin: 0px;
+    /* font-size: 28px; */
+    text-transform: uppercase;
+}
+
+.contactUsFormDiv p {
+    margin: 0px;
+    font-size: 12px;
+    /* width: 50%; */
+    /* text-transform: uppercase; */
+}
+
+.formBtn {
+    font-family: 'Reddit Sans Condensed', sans-serif;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+    width: 100px;
+    text-transform: uppercase;
+    background-color: transparent;
+}
+
+/* footer styling */
+
+
+.footer {
+    width: 80%;
+    margin: 10px auto;
+}
+
+.footerDiv {
+    /* border: 2px solid black; */
+    min-height: 150px;
+}
+
+
+.footerDiv h1 {
+    text-transform: uppercase;
+    font-size: 22px;
+    margin: 15px 0px;
+
+}
+
+.footerDiv li {
+    text-transform: uppercase;
+    list-style: none;
+    margin: 0px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.footerIcon {
+    height: 50px;
+    width: 50px;
+}
+
+.socialMediaIcon {
+    border: 2px solid black;
+    font-size: 22px;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 100%;
+}
+
+
+
+.sendInput {
+    padding: 8px;
+    border: 2px solid black;
+}
+
+.sendInput::placeholder {
+    font-family: 'Reddit Sans Condensed', sans-serif;
+}
+
+.sendBtn {
+    padding: 5px;
+    font-size: 25px;
+    color: white;
+    background-color: black;
+}

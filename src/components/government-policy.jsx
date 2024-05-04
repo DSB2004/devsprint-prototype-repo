@@ -1,17 +1,16 @@
 import React from 'react'
 import style from "../style/modules/home.module.css"
-import data from "../assets/data/features.json"
+import data from "../assets/data/policy.json"
 import FaqCard from '../layouts/faq-card/faq-card'
-
-export default function FeatureSection() {
+export default function GovernmentPolicy() {
     return (
         <section className={style.outerSection}>
             <div className={`flex-justify ${style.introContent}`}>
                 <h3>
-                    Explore Our Programmes
+                    Government Policy Integration
                 </h3>
                 <p>
-                    Discover how our platform enhances old age homes' programs. From event hosting to volunteer collaboration, we streamline services to enrich residents' lives and foster community engagement.
+                    Stay informed about relevant government policies with Elderly Connect. Learn about initiatives like the Integrated Programme for Older Persons (IPOP) and legislation such as the Maintenance and Welfare of Parents and Senior Citizens Act, 2007, to protect your rights and advocate for your needs confidently.
                 </p>
             </div>
             <div>

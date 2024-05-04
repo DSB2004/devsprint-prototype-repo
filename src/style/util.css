@@ -30,6 +30,11 @@
     justify-content: space-evenly;
 }
 
+.flex-top {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
 
 .flex-column {
     flex-direction: column;

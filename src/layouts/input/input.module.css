@@ -1,0 +1,15 @@
+.input {
+    padding: 10px 5%;
+    border: 2px solid black;
+    width: 75%;
+    font-size: 15px;
+    margin: 5px;
+}
+
+.input:focus {
+    outline: none;
+}
+
+.input::placeholder {
+    font-family: 'Reddit Sans Condensed', sans-serif;
+}

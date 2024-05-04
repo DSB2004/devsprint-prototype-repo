@@ -4,6 +4,7 @@
     border-bottom: 2px solid rgb(0, 0, 0);
     overflow: hidden;
     margin: 20px auto;
+
 }
 
 
@@ -12,6 +13,7 @@
 }
 
 .faqCard h2 {
+    text-transform: capitalize;
     width: 90%;
     font-size: 20px;
     margin: 5px;

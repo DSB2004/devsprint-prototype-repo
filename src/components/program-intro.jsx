@@ -5,10 +5,8 @@ import { PiUsersThreeBold } from "react-icons/pi";
 import HeroLink from '../layouts/hero-link/hero-link';
 import SlideTo from '../utils/slider';
 import { useNavigate } from 'react-router-dom';
-// import HERO from "../assets/img/hero-bg.jpg"
-
-export default function Hero() {
-    const navigate = useNavigate();
+export default function ProgramIntro() {
+    const navigate = useNavigate()
     return (
         <section className={style.hero}>
             <div className={style.coverImg}>
@@ -19,7 +17,7 @@ export default function Hero() {
                                 <PiUsersThreeBold />
                             </div>
                             <div>
-                                <h1>Senior Support Solutions </h1>
+                                <h1>Programmes </h1>
                                 <h4>Connecting Elders with Compassionate Care</h4>
                             </div>
                         </div>
@@ -28,8 +26,8 @@ export default function Hero() {
                         </div>
                     </div>
                     <div className={`flex-left ${style.coverContent2}`}>
+                        <HeroLink text="Home" onClick={() => navigate('/')} />
                         <HeroLink text="About Elderly Connect" onClick={() => navigate("/about")} />
-                        <HeroLink text="Contact Us" onClick={() => SlideTo('contact-us')} />
                     </div>
                 </div>
             </div >

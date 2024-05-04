@@ -1,17 +1,21 @@
 import React from 'react'
 import style from "../style/modules/home.module.css"
-import data from "../assets/data/features.json"
+import data from "../assets/data/healthcare.json"
 import FaqCard from '../layouts/faq-card/faq-card'
 
-export default function FeatureSection() {
+export default function HealthcareSection() {
     return (
-        <section className={style.outerSection}>
+
+
+        < section className={style.outerSection} >
             <div className={`flex-justify ${style.introContent}`}>
                 <h3>
-                    Explore Our Programmes
+                    Health and Wellness:
                 </h3>
                 <p>
-                    Discover how our platform enhances old age homes' programs. From event hosting to volunteer collaboration, we streamline services to enrich residents' lives and foster community engagement.
+
+                    Prioritize your well - being with Elderly Connect's comprehensive health programs. Access regular checkups, medication support, and participate in fitness discussions and yoga sessions to maintain physical and mental vitality.
+
                 </p>
             </div>
             <div>
@@ -21,6 +25,6 @@ export default function FeatureSection() {
                     }
                 </div>
             </div>
-        </section>
+        </section >
     )
 }
