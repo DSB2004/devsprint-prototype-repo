@@ -1,0 +1,24 @@
+.faqCard {
+    height: 60px;
+    width: 800px;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    overflow: hidden;
+    margin: 20px auto;
+}
+
+
+.openFAQ {
+    height: auto
+}
+
+.faqCard h2 {
+    width: 90%;
+    font-size: 20px;
+    margin: 5px;
+}
+
+.faqCard p {
+    font-size: 14px;
+    width: 95%;
+    margin: 20px auto;
+}

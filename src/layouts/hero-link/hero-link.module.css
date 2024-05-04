@@ -1,0 +1,21 @@
+@import url(https://fonts.googleapis.com/css2?family=Reddit+Sans+Condensed&display=swap);
+
+.heroLink {
+    font-family: 'Reddit Sans Condensed', sans-serif;
+    color: rgba(255, 255, 255, 0.872);
+    margin: 0px 10px;
+    font-size: 18px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.heroLink svg {
+    transition: all 500ms ease-in-out;
+    margin-left: 0px;
+    width: 22px;
+    height: 22px;
+}
+
+.heroLink:hover svg {
+    margin-left: 5px;
+}

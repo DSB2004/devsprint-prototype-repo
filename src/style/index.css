@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url(https://fonts.googleapis.com/css2?family=Reddit+Sans+Condensed&display=swap);
 
 @import url('./util.css');
 
 body {
   margin: 0;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Reddit Sans Condensed', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

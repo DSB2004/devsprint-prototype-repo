@@ -3,6 +3,7 @@
     top: 0;
     width: 100%;
     z-index: 3;
+
 }
 
 /* header nav */
@@ -12,13 +13,17 @@
     padding: 10px 30px;
 }
 
-.headerH3 li {
+.logo {
+    height: 40px;
+    width: 40px;
+}
+
+.headerH3 h1 {
     text-transform: uppercase;
     list-style: none;
-    margin: 0px;
+    margin: 5px;
     padding: 0px;
     font-size: 15px;
-    line-gap-override: 0px;
 }
 
 .menuDiv li {
